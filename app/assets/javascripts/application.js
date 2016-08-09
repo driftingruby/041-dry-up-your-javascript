@@ -14,4 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require jquery-ui/datepicker
 //= require_tree .
+
+
+$(document).on('turbolinks:load', date_picker_init);
